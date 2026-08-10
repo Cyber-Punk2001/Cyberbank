@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #111827;
+
+    color: white;
+
+}
+
+
+/* =========================
+   PANTALLAS
+========================= */
+
+.pantalla {
+
+    width: 100%;
+
+    height: 100vh;
+
+}
+
+
+/* =========================
+   PANTALLA PRINCIPAL
+========================= */
+
+#inicio {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;
+
+    text-align: center;
+
+}
+
+
+.bienvenida h1 {
+
+    font-size: 70px;
+
+    letter-spacing: 5px;
+
+}
+
+
+.bienvenida p {
+
+    margin-top: 15px;
+
+    font-size: 24px;
+
+}
+
+
+/* BOTÓN PRINCIPAL */
+
+#btnTransacciones {
+
+    position: absolute;
+
+    right: 40px;
+
+    bottom: 40px;
+
+    width: 300px;
+
+    height: 70px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #0066ff;
+
+    color: white;
+
+    font-size: 19px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+#btnTransacciones:hover {
+
+    transform: scale(1.05);
+
+    background: #0052cc;
+
+}
+
+
+/* =========================
+   OCULTAR ELEMENTOS
+========================= */
+
+.oculto {
+
+    display: none !important;
+
+}
+
+
+/* =========================
+   MENÚ DEL CAJERO
+========================= */
+
+#menu {
+
+    display: flex;
+
+}
+
+
+.menu-lateral {
+
+    width: 280px;
+
+    height: 100vh;
+
+    background: #062b63;
+
+    padding-top: 30px;
+
+}
+
+
+.menu-lateral h2 {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+    font-size: 28px;
+
+}
+
+
+.menu-lateral button {
+
+    width: 100%;
+
+    height: 75px;
+
+    border: none;
+
+    background: transparent;
+
+    color: white;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+}
+
+
+.menu-lateral button:hover {
+
+    background: #0066ff;
+
+}
+
+
+/* =========================
+   CONTENIDO
+========================= */
+
+.contenido {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #f1f5f9;
+
+    color: #062b63;
+
+}
+
+
+.contenido h1 {
+
+    font-size: 40px;
+
+}
+
+
+.contenido p {
+
+    margin-top: 15px;
+
+    font-size: 20px;
+
+}
